@@ -1,0 +1,19 @@
+# START - Three Week Check
+dn: CN=[CUS] ThreeWeekCheckPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: uO+lfOmVX0CnWm3L3VFBxQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Three Week Check
+jenzabar-ICSNET-PortletPath: Portlet.ThreeWeekCheck,CUS.ICS.ThreeWeekCheck.ThreeWeekCheck
+jenzabar-ICSNET-ApplicationPointer: CN=CUS,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CUS] ThreeWeekCheckPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Three Week Check
